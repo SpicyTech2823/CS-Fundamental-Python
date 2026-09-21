@@ -24,10 +24,10 @@ class BinaryTree:
                 node.right = Node(data)
             else:
                 self._insert_recursive(node.right, data)
-    # method to perform an in-order traversal of the binary tree
+    # method to perform 
     def inorder_traversal(self):
         return self._inorder_recursive(self.root)
-    # helper method to recursively perform an in-order traversal of the binary tree
+    # helper method to recursively perform 
     def _inorder_recursive(self, node):
         result = []
         if node:

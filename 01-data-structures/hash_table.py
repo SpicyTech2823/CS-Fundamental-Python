@@ -2,7 +2,7 @@ class HashTable:
     def __init__(self, size=10):
         self.size = size
         self.table = [[] for _ in range(size)]
-    # method to hash the key to an index in the table
+    # method to compute the hash value for a given key
     def _hash(self, key):
         return hash(key) % self.size
     # method to insert a key-value pair into the hash table

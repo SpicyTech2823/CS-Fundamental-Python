@@ -2,7 +2,7 @@ class Graph:
     def __init__(self):
         self.graph = {}
 
-    # Add a vertex to the graph
+    # Add a node to the graph
     def add_node(self, node):
         if node not in self.graph:
             self.graph[node] = []
